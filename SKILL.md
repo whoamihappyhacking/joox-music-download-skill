@@ -239,8 +239,6 @@ find /tmp/joox-test -type f | sort
 ```
 
 ## 常见坑
-- JOOX API 可能依赖 cookie、区域 header 和请求头
-- 不要把私有 cookie、session token 或固定 IP header 直接发布到 skill 里，应通过环境变量注入
 - 有些歌曲可能拿不到可用下载 URL
 - 有些歌曲可能没有歌词
 - 多行 JSONP 必须用支持多行的方式剥壳
